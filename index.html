@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Mejorada</title>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+    </head>
+    
+</head>
+<body>
+
+
+
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <div class="botones">
+            <!-- Números y puntos -->
+            <button data-numero="7">7</button>
+            <button data-numero="8">8</button>
+            <button data-numero="9">9</button>
+            <button data-operador="/">/</button>
+
+            <button data-numero="4">4</button>
+            <button data-numero="5">5</button>
+            <button data-numero="6">6</button>
+            <button data-operador="*">×</button>
+
+            <button data-numero="1">1</button>
+            <button data-numero="2">2</button>
+            <button data-numero="3">3</button>
+            <button data-operador="-">−</button>
+
+            <button data-numero="0">0</button>
+            <button data-numero=".">.</button>
+            <button id="igual">=</button>
+            <button data-operador="+">+</button>
+
+            <button id="limpiar" class="limpiar">C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
